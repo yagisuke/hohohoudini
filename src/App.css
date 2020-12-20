@@ -14,6 +14,9 @@
 }
 
 .App-header {
+  --static-gradient-color: rgb(110, 112, 110);
+  animation: Static-Gradient-Animation infinite 5s linear;
+  background: paint(static-gradient);
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -34,5 +37,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes Static-Gradient-Animation {
+  from {
+    --static-gradient-size: 5;
+  }
+  to {
+    --static-gradient-size: 10;
   }
 }
