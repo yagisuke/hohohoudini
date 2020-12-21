@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hohohoudini/static/css/main.4137b956.chunk.css",
-    "main.js": "/hohohoudini/static/js/main.9c40124c.chunk.js",
-    "main.js.map": "/hohohoudini/static/js/main.9c40124c.chunk.js.map",
+    "main.css": "/hohohoudini/static/css/main.1c8ded42.chunk.css",
+    "main.js": "/hohohoudini/static/js/main.5f215949.chunk.js",
+    "main.js.map": "/hohohoudini/static/js/main.5f215949.chunk.js.map",
     "runtime-main.js": "/hohohoudini/static/js/runtime-main.4988804d.js",
     "runtime-main.js.map": "/hohohoudini/static/js/runtime-main.4988804d.js.map",
     "static/js/2.9bad6101.chunk.js": "/hohohoudini/static/js/2.9bad6101.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.e3cadbb0.chunk.js": "/hohohoudini/static/js/3.e3cadbb0.chunk.js",
     "static/js/3.e3cadbb0.chunk.js.map": "/hohohoudini/static/js/3.e3cadbb0.chunk.js.map",
     "index.html": "/hohohoudini/index.html",
-    "static/css/main.4137b956.chunk.css.map": "/hohohoudini/static/css/main.4137b956.chunk.css.map",
+    "static/css/main.1c8ded42.chunk.css.map": "/hohohoudini/static/css/main.1c8ded42.chunk.css.map",
     "static/js/2.9bad6101.chunk.js.LICENSE.txt": "/hohohoudini/static/js/2.9bad6101.chunk.js.LICENSE.txt",
     "static/media/logo.7670cd18.svg": "/hohohoudini/static/media/logo.7670cd18.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4988804d.js",
     "static/js/2.9bad6101.chunk.js",
-    "static/css/main.4137b956.chunk.css",
-    "static/js/main.9c40124c.chunk.js"
+    "static/css/main.1c8ded42.chunk.css",
+    "static/js/main.5f215949.chunk.js"
   ]
 }
