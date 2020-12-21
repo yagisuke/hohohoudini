@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import 'css-paint-polyfill'
-import workletURL from 'file-loader!houdini-static-gradient'
+import 'css-paint-polyfill';
+import workletURL from 'file-loader!houdini-static-gradient';
 
 CSS.paintWorklet.addModule(workletURL)
 

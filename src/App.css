@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
@@ -14,10 +15,10 @@
 }
 
 .App-header {
-  --static-gradient-color: rgb(110, 112, 110);
-  animation: Static-Gradient-Animation infinite 5s linear;
+  --static-gradient-color: #98e5fa;
+  --static-gradient-size: 1;
   background: paint(static-gradient);
-  background-color: #282c34;
+  background-color: #34a0be;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,10 +26,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  animation: Static-Gradient-Animation infinite 5s linear;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
 
 @keyframes App-logo-spin {
@@ -42,9 +44,9 @@
 
 @keyframes Static-Gradient-Animation {
   from {
-    --static-gradient-size: 5;
+    --static-gradient-direction: to-top;
   }
   to {
-    --static-gradient-size: 10;
+    --static-gradient-direction: to-left;
   }
 }
