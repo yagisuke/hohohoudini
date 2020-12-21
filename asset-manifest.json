@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hohohoudini/static/css/main.4137b956.chunk.css",
-    "main.js": "/hohohoudini/static/js/main.847609f1.chunk.js",
-    "main.js.map": "/hohohoudini/static/js/main.847609f1.chunk.js.map",
+    "main.js": "/hohohoudini/static/js/main.deb8a831.chunk.js",
+    "main.js.map": "/hohohoudini/static/js/main.deb8a831.chunk.js.map",
     "runtime-main.js": "/hohohoudini/static/js/runtime-main.6c29a445.js",
     "runtime-main.js.map": "/hohohoudini/static/js/runtime-main.6c29a445.js.map",
     "static/js/2.ca4d43b3.chunk.js": "/hohohoudini/static/js/2.ca4d43b3.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.6c29a445.js",
     "static/js/2.ca4d43b3.chunk.js",
     "static/css/main.4137b956.chunk.css",
-    "static/js/main.847609f1.chunk.js"
+    "static/js/main.deb8a831.chunk.js"
   ]
 }
