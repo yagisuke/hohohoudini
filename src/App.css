@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
   position: relative;
+  text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -14,11 +15,24 @@
   }
 }
 
-.App-header {
-  --static-gradient-color: #98e5fa;
-  --static-gradient-size: 1;
-  background: paint(static-gradient);
-  background-color: #34a0be;
+.App-cover {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  --connections-particleColor: #07a0ca;
+  --connections-lineColor: #07a0ca;
+  --connections-particleAmount: 160;
+  --connections-defaultRadius: 2;
+  --connections-variantRadius: 3;
+  --connections-linkRadius: 60;
+  background: paint(connections);
+  animation: Connections-Animation infinite 30s linear;
+}
+
+.App-contents {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,11 +40,47 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  animation: Static-Gradient-Animation infinite 5s linear;
+  --static-gradient-direction: to-bottom;
+  --static-gradient-color: #07a0ca;
+  --static-gradient-size: 1;
+  background: paint(static-gradient);
+  background-color: rgba(52, 160, 190, 0.5);
 }
 
 .App-link {
+  padding-bottom: 1rem;
+  --extra-underlineNumber: 5;
+  --extra-underlineColor: #ffffff;
+  --extra-underlineWidth: 1;
+  --extra-underlineSpread: 30;
+  background: paint(extra-superUnderline);
+  animation: Extra-SuperUnder-Line-Animation infinite 3s linear;
+}
+
+.App-link a {
+  text-decoration: none;
   color: white;
+}
+
+.App-button {
+  display: block;
+  width: 200px;
+  height: 60px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  --ripple-x: 0;
+  --ripple-y: 0;
+  --ripple-speed: 1.0;
+  --animation-tick: 0;
+  --ripple-color: rgba(255, 255, 255, 0.5);
+}
+
+.App-button.animating {
+  background: paint(ripple), transparent;
 }
 
 @keyframes App-logo-spin {
@@ -42,11 +92,23 @@
   }
 }
 
-@keyframes Static-Gradient-Animation {
+@keyframes Connections-Animation {
   from {
-    --static-gradient-direction: to-top;
+    transform: rotate(360deg);
   }
   to {
-    --static-gradient-direction: to-left;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes Extra-SuperUnder-Line-Animation {
+  0%, 100% {
+    --extra-underlineSpread: 30;
+  }
+  25%, 75% {
+    --extra-underlineSpread: 20;
+  }
+  50% {
+    --extra-underlineSpread: 10;
   }
 }
