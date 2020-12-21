@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/hohohoudini/static/css/main.4137b956.chunk.css",
-    "main.js": "/hohohoudini/static/js/main.c4fc7959.chunk.js",
-    "main.js.map": "/hohohoudini/static/js/main.c4fc7959.chunk.js.map",
+    "main.js": "/hohohoudini/static/js/main.72e00381.chunk.js",
+    "main.js.map": "/hohohoudini/static/js/main.72e00381.chunk.js.map",
     "runtime-main.js": "/hohohoudini/static/js/runtime-main.6a18f691.js",
     "runtime-main.js.map": "/hohohoudini/static/js/runtime-main.6a18f691.js.map",
-    "static/js/2.45efd55b.chunk.js": "/hohohoudini/static/js/2.45efd55b.chunk.js",
-    "static/js/2.45efd55b.chunk.js.map": "/hohohoudini/static/js/2.45efd55b.chunk.js.map",
+    "static/js/2.cde05e10.chunk.js": "/hohohoudini/static/js/2.cde05e10.chunk.js",
+    "static/js/2.cde05e10.chunk.js.map": "/hohohoudini/static/js/2.cde05e10.chunk.js.map",
     "static/js/3.ff853201.chunk.js": "/hohohoudini/static/js/3.ff853201.chunk.js",
     "static/js/3.ff853201.chunk.js.map": "/hohohoudini/static/js/3.ff853201.chunk.js.map",
     "worklet.js": "/hohohoudini/570d15089f30555478bc06854c5aea52.js",
     "index.html": "/hohohoudini/index.html",
     "static/css/main.4137b956.chunk.css.map": "/hohohoudini/static/css/main.4137b956.chunk.css.map",
-    "static/js/2.45efd55b.chunk.js.LICENSE.txt": "/hohohoudini/static/js/2.45efd55b.chunk.js.LICENSE.txt",
+    "static/js/2.cde05e10.chunk.js.LICENSE.txt": "/hohohoudini/static/js/2.cde05e10.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/hohohoudini/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a18f691.js",
-    "static/js/2.45efd55b.chunk.js",
+    "static/js/2.cde05e10.chunk.js",
     "static/css/main.4137b956.chunk.css",
-    "static/js/main.c4fc7959.chunk.js"
+    "static/js/main.72e00381.chunk.js"
   ]
 }
