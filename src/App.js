@@ -28,7 +28,7 @@ function App() {
 
   function onClick() {
     setTimeout(() => {
-      location.href = 'https://twitter.com/yagi_suke';
+      window.location.href = 'https://twitter.com/yagi_suke';
     }, 1000)
   }
 
