@@ -6,13 +6,12 @@ import './index.css'
 
 function Page() {
   useEffect(() => {
-    const target = document.body.querySelector('.Js-resize')
+    const target = document.body.querySelector('.Js-anim')
     const requestSize = [1, 4, 7, 10, 13]
     const requestColors = ['deepskyblue', 'darkgray', 'steelblue', 'lightseagreen', 'darkturquoise']
     const anim = () => {
-      const index = Math.floor(Math.random() * Math.floor(5))
-      target.style.setProperty('--static-gradient-size', requestSize[index])
-      target.style.setProperty('--static-gradient-color', requestColors[index])
+      target.style.setProperty('--static-gradient-size', requestSize[Math.floor(Math.random() * Math.floor(5))])
+      target.style.setProperty('--static-gradient-color', requestColors[Math.floor(Math.random() * Math.floor(5))])
     }
     setInterval(anim, 1000)
   }, [])
@@ -40,7 +39,7 @@ function Page() {
         ]}
       />
       <h1>Simple animation</h1>
-      <div className="Simple-Animation Js-resize">
+      <div className="Simple-Animation Js-anim">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
     </div>
