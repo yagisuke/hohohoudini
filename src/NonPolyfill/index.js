@@ -8,7 +8,7 @@ function Page() {
     CSS.paintWorklet.addModule('https://unpkg.com/houdini-static-gradient/worklet.js');
   `
   return (
-    <div className="App">
+    <div>
       <Helmet
         defer={true}
         script={[
@@ -18,7 +18,7 @@ function Page() {
         ]}
       />
       <h1>Non polyfill</h1>
-      <div className="App-contents">
+      <div className="Non-polyfill">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
     </div>
