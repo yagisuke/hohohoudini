@@ -5,14 +5,7 @@
   <title>hohohoudini</title>
   <script>
     const SEGMENT_COUNT = 0
-    const loc = window.location
-    const origin = loc.origin
-    const path = loc.href.substr(origin.length + 1)
-    const segments = path.split('/')
-    const repo = segments.slice(0, SEGMENT_COUNT).join('/')
-    const param = segments.slice(SEGMENT_COUNT).join('/')
-    const url = origin + '/' + repo + '?p=' + encodeURIComponent(param)
-    loc.replace(url)
+    window.location.replace('https://yagisuke.github.io/hohohoudini/')
   </script>
 </head>
 <body></body>
